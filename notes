@@ -1,0 +1,8 @@
+YDKJS scope & closure
+
+Chapter 1
+The scope is a set of rules for storing variables in some location, and for finding those variables at a later time.
+Compilation can be divided in Tokenizing, Parsing and Code generation.
+There are three main characters in the process of compilation: Engine, Compiler and Scope.
+Two distinct actions are taken for a variable assignment: First, Compiler declares a variable (if not previously declared in the current scope), and second, when executing, Engine looks up the variable in Scope and assigns to it, if found.
+RHS looks for the source of a specific variable. LHS assigns a value to a variable.
